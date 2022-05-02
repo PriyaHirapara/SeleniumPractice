@@ -11,7 +11,7 @@ public class UploadAFile {
         //TODO Auto-generated constructor stub
     }
     public static void main(String[] args){
-        String URl = "https://demo.guru99.com/test/upload/";
+        String URL = "https://demo.guru99.com/test/upload/";
         WebDriver driver = SetupSeleniumWebDriver.launchBrowserUsingWDM("chrome");
         driver.get(URL);
         By uploadFileLoc = By.id("uploadfile_0");
